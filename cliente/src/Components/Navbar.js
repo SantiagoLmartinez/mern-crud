@@ -16,9 +16,9 @@ export default function NavbarComp() {
           <li className="nav-item">
             <a className="nav-link" href="/agregar-usuario">Agregar Usuario</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="/editar-usuario">Editar Usuario</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

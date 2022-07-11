@@ -17,8 +17,7 @@ function ListaDeUsuariosComp() {
 
   return (
     <div>
-      {/* <h2 className='text-center'>Lista de usuarios</h2> */}
-      {/* {listaDeUsuarios} */}
+      <h2 className='text-center'>Lista de usuarios</h2>
       <UsuarioIndividualComp data={data} />
     </div>
   ) 

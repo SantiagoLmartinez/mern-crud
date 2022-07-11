@@ -26,7 +26,7 @@ const [email, setEmail]=useState('')
   return (
     <div className='row mt-5'>
       <div className="col-sm-6 col-12 mx-auto">
-      <form  method="get">
+      <form action='/' method="get">
         <h2>Agregar usuario</h2>
         <input value={nombre} onChange={(e)=>{setNombre(e.target.value)}} className='form-control mb-2' type="text"  name='nombre' placeholder='nombre'/>
         <input value={nickname} onChange={(e)=>{setNickname(e.target.value)}} className='form-control mb-2' type="text" name='nickname' placeholder='nickname'/>

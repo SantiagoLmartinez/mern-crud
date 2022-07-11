@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<ListaDeUsuariosComp />} exact></Route>
-          <Route path='/editar-usuario' element={<EditarUsuariosComp />} exact></Route>
+          <Route path='/editar-usuario/:id_user' element={<EditarUsuariosComp />} exact></Route>
           <Route path='/agregar-usuario' element={<AgregarUsuariosComp />} exact > </Route>
         </Routes>
       </BrowserRouter>
